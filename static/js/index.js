@@ -460,6 +460,7 @@ function reloadCart() {
                 <div><img src="images/${value.image}"/></div>
                 <div class="liName">${value.name}</div>
                 <div class="liPrice">${value.price.toLocaleString()}$</div>
+                <button onclick = "removeProduct(${key})">remove</button>
             `;
             listCard.appendChild(newDiv);
         }
@@ -478,7 +479,7 @@ function searchBooks() {
 let searchInput = document.getElementById('searchInput');
 searchInput.addEventListener('input', searchBooks);
 
-function buyProduct(key) {
+function removeProduct(key) {
     setTimeout(() => {
         listCards.splice(key, 1);
         reloadCart();
