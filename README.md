@@ -9,3 +9,10 @@ The Library Management System is a web-based application designed to help librar
 - Front-end: HTML, CSS, JavaScript
 - Back-end: NodeJS
 - Frameworks: expressJS
+
+## Steps to start
+    ```shell
+    cd library-management-system
+    npm i express
+    node server.js
+* Then server will start at port 5000 or 5001.
