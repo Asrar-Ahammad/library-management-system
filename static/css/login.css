@@ -115,7 +115,7 @@ body{
 .signup {
   border: 2px solid var(--main-color);
   background-color: var(--bg-color);
-  color: #fff;
+  color: #000000;
   font-size: large;
   font-weight: bold;
 }

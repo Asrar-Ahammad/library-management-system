@@ -37,112 +37,112 @@ closeShopping.addEventListener('click', () => {
 let products = [
     {
         id: 1,
-        name: 'Spiderman',
+        name: 'Think Outside The Box',
         image: '1.jpg',
-        price: 1500,
-        quantity: 5
+        price: 850,
+        quantity: 4
     },
     {
         id: 2,
-        name: 'comic book',
+        name: 'Harry Potter 1',
         image: '2.jpg',
-        price: 700,
-        quantity: 20
+        price: 900,
+        quantity: 23
     },
     {
         id: 3,
-        name: 'Superman',
+        name: 'The fall of Iromoth',
         image: '3.jpg',
-        price: 1200,
-        quantity: 13
+        price: 1250,
+        quantity: 10
     },
     {
         id: 4,
-        name: 'Superman Adventures',
+        name: 'Normal People',
         image: '4.jpg',
-        price: 1500,
+        price: 1540,
         quantity: 7
     },
     {
         id: 5,
-        name: 'Doctor Strange',
+        name: 'My Book Cover',
         image: '5.jpg',
-        price: 1250,
+        price: 2350,
         quantity: 2
     },
     {
         id: 6,
-        name: 'Incredible Hulk',
+        name: 'Our Last Summer',
         image: '6.jpg',
         price: 1150,
         quantity: 15
     },
     {
         id: 7,
-        name: 'Spectacular Spiderman',
+        name: 'Memory',
         image: '7.jpg',
         price: 2000,
         quantity: 2
     },
     {
         id: 8,
-        name: 'Shazam',
+        name: 'The King of Drugs',
         image: '8.jpg',
-        price: 1000,
-        quantity: 13
+        price: 1400,
+        quantity: 11
     },
     {
         id: 9,
-        name: 'Flash',
+        name: 'Educated',
         image: '9.jpg',
-        price: 1050,
+        price: 1110,
         quantity: 9
     },
     {
         id: 10,
-        name: 'Batman Detective',
+        name: 'The Hypocrite world',
         image: '10.jpg',
-        price: 1400,
+        price: 1890,
         quantity: 4
     },
     {
         id: 11,
-        name: 'Green Arrow',
+        name: 'The Book of Art',
         image: '11.jpg',
         price: 800,
         quantity: 25
     },
     {
         id: 12,
-        name: 'Doctor Doom',
+        name: 'Rekonking',
         image: '12.jpg',
         price: 950,
         quantity: 18
     },
     {
         id: 13,
-        name: 'Avengers',
+        name: 'Tess of the world',
         image: '13.jpg',
         price: 1025,
         quantity: 8
     },
     {
         id: 14,
-        name: 'Captain Marvel',
+        name: 'Dune',
         image: '14.jpg',
         price: 1070,
         quantity: 5
     },
     {
         id: 15,
-        name: 'Dark Dawn',
+        name: 'Stand out',
         image: '15.jpg',
         price: 1180,
         quantity: 2
     },
     {
         id: 16,
-        name: 'Ironman',
+        name: 'Harry potter 2',
         image: '16.jpg',
         price: 1195,
         quantity: 15
@@ -258,10 +258,10 @@ function sortByName(ascending) {
         },
         {
             id: 1,
-            name: 'Spiderman',
+            name: 'Hello Potter',
             image: '1.jpg',
-            price: 1500,
-            quantity: 5
+            price: 850,
+            quantity: 4
         },
         {
             id: 3,
@@ -402,10 +402,10 @@ function sortByPrice(ascending) {
         },
         {
             id: 1,
-            name: 'Spiderman',
+            name: 'Hello Potter',
             image: '1.jpg',
-            price: 1500,
-            quantity: 5
+            price: 850,
+            quantity: 4
         },
         {
             id: 4,
