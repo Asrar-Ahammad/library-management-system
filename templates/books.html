@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/books.css">
+    <script src="https://kit.fontawesome.com/0cdc049c53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="loader">
+        <div class="loader">
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__ball"></div>
+        </div>
+    </div>
+    <div class="container">
+        <header>
+            <img src="images/asrarlogo.png" class="logo" alt="">
+            <div class="functionalItems">
+                <!-- <div class="search">
+                    <input type="text" id="searchInput" placeholder="Search" />
+                </div> -->
+                <div class="input-container">
+                    <input type="text" id="searchInput" name="text" class="input" placeholder="search...">
+                    <span class="icon"> 
+                      <svg width="19px" height="19px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="1" d="M14 5H20" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M14 8H17" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M22 22L20 20" stroke="#000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </span>
+                  </div>
+                <div class="shopping">
+                    <img src="images\shopping-cart-simple.svg" alt="">
+                    <span class="quantity">0</span>
+                </div>
+            </div>
+        </header>
+        <div class="buttons">
+            <button onclick="sortByName(true)">Sort by Name (A-Z)</button>
+            <button onclick="sortByName(false)">Sort by Name (Z-A)</button>
+            <button onclick="sortByPrice(true)">Sort by Price (low to high)</button>
+            <button onclick="sortByPrice(false)">Sort by Price (high to low)</button>
+        </div>
+        <div class="list"></div>
+    </div>
+    <div class="card">
+        <div class="cartHead">
+            <h1>My Shopping Cart</h1>
+            <div class="closeShopping"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+
+        <div class="checkout">
+            <div class="total">0</div>
+            <a href="/payment"><button class="rent">Rent</button></a>
+        </div>
+        <ul class="listCard">
+
+        </ul>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
